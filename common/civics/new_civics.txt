@@ -1,0 +1,37 @@
+civic_imperial_cutthroat_politics = {
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness } }
+		authority = { NOT = { value = auth_corporate } }
+	}
+	possible = {
+		authority = {
+			value = auth_imperial
+      vale
+		}
+	}
+	random_weight = { base = 1 }
+
+	modifier = {
+	}
+	description = ""
+}
+civic_corporate_cutthroat_politcs = {
+  potential = {
+    ethics = { NOT = { value = ethic_gestalt_consciousness }}
+    authority = {
+      value = auth_corporate
+      }
+    }
+    possible = {
+      authority = {
+      value = auth_corporate
+      }
+     }
+     modifier = {
+     
+      }
+      description = ""
+
+
+
+}
