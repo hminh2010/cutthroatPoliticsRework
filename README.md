@@ -1,4 +1,4 @@
-## cutthroatPoliticsRework
+## Cutthroat Politics Rework
 <strong> Changes this mod will have </strong>
 <ul>
   <li>Rework cutthroat politics</li>
