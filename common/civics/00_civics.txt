@@ -5,5 +5,8 @@ civic_cutthroat_politics = {
 	}
 	random_weight = { base = 5 }
 	modifier = {
+		leader_skill_levels = .5
+		species_leader_exp_gain = 1
 	}
+	description = "civic_tooltip_cutthroat_politics_effects"
 }
