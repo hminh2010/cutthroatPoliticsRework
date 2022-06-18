@@ -8,7 +8,9 @@
 <bold> Current Completed Changes </bold>
 <ul>
   <li>3 traits for cutthroat politics</li>
+  <ol>
     <li>Improved verison of erudite</li>
     <li>Speedy Bureaucrat</li>
-    <li>Improved verison of rightous<li>
+    <li>Improved verison of rightous</li>
+  </ol>
   <li>Thats it so far</li>
