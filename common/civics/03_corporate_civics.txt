@@ -1,0 +1,14 @@
+civic_ruthless_competition = {
+	potential = {
+		OR = {
+			authority = { value = auth_corporate }
+			civics = { value = civic_galactic_sovereign_megacorp }
+		}
+	}
+	possible = {
+		civics = { NOT = { value = civic_meritocracy } }
+	}
+	random_weight = { base = 5 }
+	modifier = {
+	}
+}
