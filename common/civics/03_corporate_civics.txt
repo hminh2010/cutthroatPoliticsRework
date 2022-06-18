@@ -5,10 +5,9 @@ civic_ruthless_competition = {
 			civics = { value = civic_galactic_sovereign_megacorp }
 		}
 	}
-	possible = {
-		civics = { NOT = { value = civic_meritocracy } }
-	}
 	random_weight = { base = 5 }
 	modifier = {
+		leader_skill_levels = .5
+		species_leader_exp_gain = 1
 	}
 }
