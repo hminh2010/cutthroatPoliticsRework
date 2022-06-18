@@ -15,23 +15,3 @@ civic_imperial_cutthroat_politics = {
 	}
 	description = ""
 }
-civic_corporate_cutthroat_politcs = {
-  potential = {
-    ethics = { NOT = { value = ethic_gestalt_consciousness }}
-    authority = {
-      value = auth_corporate
-      }
-    }
-    possible = {
-      authority = {
-      value = auth_corporate
-      }
-     }
-     modifier = {
-     
-      }
-      description = ""
-
-
-
-}
