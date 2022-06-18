@@ -1,0 +1,41 @@
+leader_trait_speedy_bureaucrat = {
+	cost = 1
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_bureaucrat.dds"
+	modifier = {
+		planet_administrators_unity_produces_mult = 0.20
+	}
+	leader_potential_add = {
+		NOR = {
+			from = { has_authority = "auth_machine_intelligence" }
+			from = { has_authority = "auth_hive_mind" }
+		}
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+}
+leader_trait_governor_genious = {
+	cost = 0
+	icon = "gfx/interface/icons/traits/trait_erudite.dds"
+	modifier = {
+		planet_jobs_engineering_research_produces_mult = 0.10
+		planet_jobs_physics_research_produces_mult = 0.10
+		planet_jobs_society_research_produces_mult = 0.10
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	initial = no
+	randomized = no
+}
+leader_trait_law_abiding = {
+	cost = 1
+	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_righteous.dds"
+	modifier = {
+		planet_crime_add = -50
+	}
+	leader_potential_add = {
+		NOT = { from = { has_authority = "auth_machine_intelligence" } }
+	}
+	leader_trait = { governor }
+	leader_class = { governor }
+	opposites = { "leader_trait_corrupt" }
+}
