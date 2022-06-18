@@ -1,6 +1,6 @@
 leader_trait_speedy_bureaucrat = {
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_bureaucrat.dds"
+	icon = "gfx/interface/icons/traits/leader_traits/trait_speedy_bureaucrat.dds"
 	modifier = {
 		planet_administrators_unity_produces_mult = 0.20
 	}
@@ -13,9 +13,9 @@ leader_trait_speedy_bureaucrat = {
 	leader_trait = { governor }
 	leader_class = { governor }
 }
-leader_trait_governor_genious = {
+leader_trait_governor_genius = {
 	cost = 0
-	icon = "gfx/interface/icons/traits/trait_erudite.dds"
+	icon = "gfx/interface/icons/traits/trait_governor_genius.dds"
 	modifier = {
 		planet_jobs_engineering_research_produces_mult = 0.10
 		planet_jobs_physics_research_produces_mult = 0.10
@@ -28,7 +28,7 @@ leader_trait_governor_genious = {
 }
 leader_trait_law_abiding = {
 	cost = 1
-	icon = "gfx/interface/icons/traits/leader_traits/leader_trait_righteous.dds"
+	icon = "gfx/interface/icons/traits/leader_traits/ltrait_law_abiding.dds"
 	modifier = {
 		planet_crime_add = -50
 	}
