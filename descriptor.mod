@@ -1,6 +1,5 @@
 version="0.1"
 tags={
-	"Balance"
 	"Civics"
 }
 name="Cutthroat Politics Rework"
